@@ -8,6 +8,11 @@ object kthelement extends App {
     digitList(number - 1)
   }
 
+  def length(digitList: List[Int]): Int = {
+    digitList.length
+  }
+
   println(digits)
   println(nth(6, digits))
+  println(length(digits))
 }
