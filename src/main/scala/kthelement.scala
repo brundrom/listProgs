@@ -12,7 +12,12 @@ object kthelement extends App {
     digitList.length
   }
 
+  def reverse(digitList: List[Int]): List[Int] = {
+    digitList.reverse
+  }
+
   println(digits)
   println(nth(6, digits))
   println(length(digits))
+  println(reverse(digits))
 }
